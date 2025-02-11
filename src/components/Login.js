@@ -6,7 +6,7 @@ const Login = (props) => {
     let history = useHistory()
     const handleSubmit = async (e)=>{
         e.preventDefault()
-        const response = await fetch("http://localhost:5500/api/auth/login", { 
+        const response = await fetch("https://registration-form-4mhi.onrender.com/api/auth/login", { 
             method: 'POST',   
             headers: {
               'Content-Type': 'application/json'
