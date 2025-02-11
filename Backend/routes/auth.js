@@ -5,7 +5,7 @@ const router = express.Router();
 const bcrypt = require("bcryptjs");
 var jwt = require("jsonwebtoken");
 const fetchuser = require('../middleware/fetchuser');
-const { success } = require("concurrently/src/defaults");
+// const { success } = require("concurrently/src/defaults");
 
 const JWT_SECRET = "aaliyareaaliya";
 
